@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "imageReplacer",
+    "version": "1.0",
+    "description": "Replace images on ynet.co.il with custom images.",
+    "permissions": [],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.ynet.co.il/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "icons/icon.png"
+    }
+}
