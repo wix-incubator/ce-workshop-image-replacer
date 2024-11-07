@@ -1,0 +1,1 @@
+# ce-workshop-image-replacer
