@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "imageReplacer",
     "version": "1.0",
-    "description": "Replace images on ynet.co.il with custom images.",
+    "description": "Replace images on wix.com with custom images.",
     "permissions": [],
     "action": {
         "default_popup": "popup.html",
